@@ -7,7 +7,7 @@ import { CLIENT_ID, CLIENT_SECRET} from '../../../environments/environment';
 @Injectable({
   providedIn: 'root'
 })
-export class GithubService {
+export class GithubRepoService {
 
   constructor(private httpClient:HttpClient) { }
 

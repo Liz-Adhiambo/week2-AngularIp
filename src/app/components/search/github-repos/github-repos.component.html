@@ -1,1 +1,17 @@
+<div *ngIf="githubRepos" class="card mt-5">
+  <div class="card-header">
+    <h4>Github Repositories</h4>
 
+  </div>
+  <div class="card-body">
+    <li *ngFor="let repo of githubRepos" class="list-group">
+      
+        <a [href]="repo.html_url" target="blank">{{repo.name}}</a>
+        <span class="badge badge-primary">stars</span>
+        <span class="badge">stars</span>
+      
+    </li>
+    
+    
+  </div>
+</div>
