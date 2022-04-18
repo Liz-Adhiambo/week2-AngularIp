@@ -4,11 +4,13 @@
 
   </div>
   <div class="card-body">
-    <li *ngFor="let repo of githubRepos" class="list-group">
+    <li *ngFor="let repo of githubRepos" class="list-group list-group-item" id="rname">
       
-        <a [href]="repo.html_url" target="blank">{{repo.name}}</a>
-        <span class="badge badge-primary">stars</span>
-        <span class="badge">stars</span>
+        <a  [href]="repo.html_url" target="blank">{{repo.name}}</a>
+        <h5>Description</h5>
+        <p>{{repo.description}}</p>
+        <span class="btn btn-danger">{{repo.stargazers_count}} stars</span>
+        
       
     </li>
     

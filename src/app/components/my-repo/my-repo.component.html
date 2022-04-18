@@ -6,20 +6,21 @@
       
     <div class="card">
 
-      <img src="{{user.avatar_url}}" alt="" width="50">
+      <img src="{{user.avatar_url}}" alt="" width="200">
 
       <div class="card-body">
-        <p>Name : {{user.name}}</p>
-        <p>
+        <p class="list-group-item">UserName: {{user.login}}</p>
+        <p class="list-group-item">Name : {{user.name}}</p>
+        <p class="list-group-item">
           My Bio: {{user.bio}}
         <p>
-        <p>
+        <p class="list-group-item">
           Number of Public Repositories: {{user.public_repos}}
         </p>
-        <p>
+        <p class="list-group-item">
           Followers:{{user.followers}}
-          <br>
-          <br>
+        </p>
+        <p class="list-group-item">
           Following:{{user.following}}
         </p>
       </div>
