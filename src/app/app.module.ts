@@ -7,13 +7,15 @@ import { AppComponent } from './app.component';
 import { NavBarComponent } from './components/nav-bar/nav-bar.component';
 import { LandingPageComponent } from './components/landing-page/landing-page.component';
 import { MyRepoComponent } from './components/my-repo/my-repo.component';
+import { GithubAppComponent } from './components/search/github-app/github-app.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavBarComponent,
     LandingPageComponent,
-    MyRepoComponent
+    MyRepoComponent,
+    GithubAppComponent
   ],
   imports: [
     BrowserModule,
