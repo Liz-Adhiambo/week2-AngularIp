@@ -1,21 +1,28 @@
 <div class="container">
   <div class="row">
     <div class="col-md-6"></div>
-    <h1>
-      {{user.name}}
-    </h1>
+    <h1>My Github Profile</h1>
+    
+      
+    <div class="card">
 
-    <img src="{{user.avatar_url}}" alt="" width="50">
-    <h2>
-     My Bio: {{user.bio}}
-    </h2>
-    <p>
-     Public repos: {{user.public_repos}}
-    </p>
-    <p>
-      followers:{{user.followers}}
-      <br>
-      following:{{user.following}}
-    </p>
+      <img src="{{user.avatar_url}}" alt="" width="50">
+
+      <div class="card-body">
+        <p>Name : {{user.name}}</p>
+        <p>
+          My Bio: {{user.bio}}
+        <p>
+        <p>
+          Number of Public Repositories: {{user.public_repos}}
+        </p>
+        <p>
+          Followers:{{user.followers}}
+          <br>
+          <br>
+          Following:{{user.following}}
+        </p>
+      </div>
+    </div>
   </div>
 </div>
