@@ -9,6 +9,8 @@ Elizabeth Adhiambo
 This is a website where users may enter a GitHub username into a form,
 submit it, and see names and descriptions of that person's public repositories.
 A person can also look for repositories.
+
+This is the link To the web Application https://liz2222.github.io/week2-AngularIp/
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
