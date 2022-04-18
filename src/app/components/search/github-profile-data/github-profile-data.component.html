@@ -1,1 +1,33 @@
-<p>github-profile-data works!</p>
+<div class="card">
+  <div class="card-header">
+    <div class="card-body">
+      <span class="badge" >
+        {{githubProfile.followers}}Followers
+      </span>
+      <span class="badge" >
+        {{githubProfile.following}}Following
+      </span>
+      
+    </div>
+    <div class="card-body">
+      <div class="list-group">
+        <li class="list-group-item">
+          User Name:{{githubProfile.name}}
+
+        </li>
+        <li class="list-group-item">
+          Email:{{githubProfile.email}}
+
+        </li>
+        <li class="list-group-item">
+          Company:{{githubProfile.company}}
+
+        </li>
+        <li class="list-group-item">
+          Location:{{githubProfile.location}}
+
+        </li>
+      </div>
+    </div>
+  </div>
+</div>

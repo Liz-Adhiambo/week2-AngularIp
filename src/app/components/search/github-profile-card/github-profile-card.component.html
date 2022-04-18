@@ -2,7 +2,13 @@
   
   <img src="{{githubProfile.avatar_url}}" alt="" class="img-fluid">
   <div class="card-body">
-    
+    <h3>
+     Name : {{githubProfile.name}}
+    </h3>
+    <p>
+      Bio :{{githubProfile.bio}}
+    </p>
+    <a [href]="githubProfile.html_url" target="_blank" class="btn btn-danger">go-to-github</a>
   </div>
 </div>
 
