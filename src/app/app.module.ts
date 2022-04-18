@@ -12,6 +12,7 @@ import { GithubProfileComponent } from './components/search/github-profile/githu
 import { GithubProfileCardComponent } from './components/search/github-profile-card/github-profile-card.component';
 import { GithubProfileDataComponent } from './components/search/github-profile-data/github-profile-data.component';
 import { GithubReposComponent } from './components/search/github-repos/github-repos.component';
+import { FormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -30,7 +31,8 @@ import { GithubReposComponent } from './components/search/github-repos/github-re
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule,
   
   ],
   providers: [],
