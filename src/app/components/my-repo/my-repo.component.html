@@ -1,9 +1,21 @@
 <div class="container">
   <div class="row">
+    <div class="col-md-6"></div>
     <h1>
       {{user.name}}
     </h1>
 
-    <img src="{{user.avatar_url}}" alt="" >
+    <img src="{{user.avatar_url}}" alt="" width="50">
+    <h2>
+     My Bio: {{user.bio}}
+    </h2>
+    <p>
+     Public repos: {{user.public_repos}}
+    </p>
+    <p>
+      followers:{{user.followers}}
+      <br>
+      following:{{user.following}}
+    </p>
   </div>
 </div>
